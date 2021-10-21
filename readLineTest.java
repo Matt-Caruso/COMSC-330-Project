@@ -1,13 +1,13 @@
 import java.io.*;
 import java.util.Scanner;
-import java.io.File;  // Import the File class
+import java.io.File;  
 import java.io.FileNotFoundException;
 public class readLineTest
 {
     public static void main (String[] args)
     {
         try {
-            File myObj = new File("file.txt");
+            File myObj = new File("file.txt"); //creates file obj
             Scanner myReader = new Scanner(myObj);
             while (myReader.hasNextLine()) {
               String data = myReader.nextLine();
