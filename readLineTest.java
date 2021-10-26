@@ -1,3 +1,7 @@
+/*
+  This is/was a test file used to read files
+ ***NOT TO BE USED IN FINAL PROJECT
+*/
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
